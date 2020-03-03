@@ -139,21 +139,9 @@
     </div>
 
 
-    <div class="container">
-      <div class="flipping-cards">
-        <div class="flipping-card-inner">
-          <div class="flipping-card-front">
-            <img class="flipping-img" src="./assets/img/punk-rac.jpeg" alt="card-front">
-            <h4 class="card-front-text">Front-text</h4>
-          </div>
-          <div class="flipping-card-back">
-            <img class="flipping-img" src="./assets/img/doggo.jpeg" alt="card-back">
-            <h4 class="card-back-text">Back-text</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    
+
+
 
     <!-- Card Grid -->
     <div class="container">
@@ -161,8 +149,13 @@
         <!-- Card Grid -->
         <div class="row row-cols-3">
           <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/img/punk-rac.jpeg" class="card-img-top" alt="fun raccoon" />
+            <div class="card flipping-card" style="width: 18rem;">
+              <div class="flipping-card-front">
+                <img src="./assets/img/punk-rac.jpeg" class="card-img-top flipping-img" alt="fun raccoon" />
+              </div>
+              <div class="flipping-card-back">
+                <img class="flipping-img" src="./assets/img/doggo.jpeg" alt="card-back">
+              </div>
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -174,15 +167,18 @@
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/img/punk-rac.jpeg" class="card-img-top" alt="fun raccoon" />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="flipping-card">
+              <div class="flipping-card-inner">
+                <div class="flipping-card-front">
+                  <img class="flipping-img" src="./assets/img/punk-rac.jpeg" alt="card-front">
+                  <h4 class="card-front-text">Front-text</h4>
+                </div>
+                <div class="flipping-card-back">
+                  <img class="flipping-img" src="./assets/img/doggo.jpeg" alt="card-back">
+                </div>
+                <div class="container">
+                  <h4 class="card-back-text">Back-text</h4>
+                </div>
               </div>
             </div>
           </div>
@@ -314,6 +310,7 @@
         </div>
     </div>
 </div>
+
   <!-- Scripts -->
 
   <!-- Text Swapper//Mode Swapper -->

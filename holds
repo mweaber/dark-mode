@@ -1,0 +1,12 @@
+<div class="flipping-card">
+  <div class="flipping-card-inner">
+    <div class="flipping-card-front">
+      <img class="flipping-img" src="./assets/img/punk-rac.jpeg" alt="card-front">
+      <h4 class="card-front-text">Front-text</h4>
+    </div>
+    <div class="flipping-card-back">
+      <img class="flipping-img" src="./assets/img/doggo.jpeg" alt="card-back">
+      <h4 class="card-back-text">Back-text</h4>
+    </div>
+  </div>
+</div>
